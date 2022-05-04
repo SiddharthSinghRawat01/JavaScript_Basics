@@ -1,0 +1,15 @@
+// var boy = prompt("boys name");
+// var girl = prompt("girl's name");
+var loveCal = Math.random();
+loveCal = loveCal*100+1;
+loveCal = Math.floor(loveCal);
+// loveCal = alert(loveCal);
+if(loveCal < 30){
+  alert(""+loveCal+"! Nah! try next time bro")
+};
+if(loveCal >30 && loveCal < 70){
+  alert(""+loveCal+"! with this number you have a chance bro")
+};
+if(loveCal > 70){
+  alert(""+ loveCal+"! wooo! she ment for you dude")
+}

@@ -1,0 +1,11 @@
+var guestList = ["Angela","Siddharth","Anju","Sweety"];
+console.log(guestList);
+var guest = prompt("what is your name");
+function alowededGuest() {
+    if(guestList.includes(guest)){
+        console.log("alowed")
+    }else{
+        console.log("not alowed")}
+    }
+    
+alowededGuest();
