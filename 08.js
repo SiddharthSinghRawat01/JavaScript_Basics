@@ -7,7 +7,7 @@ let firstName = "sidsharth";
 
 age = + ""; // string
 console.log(typeof age)
-
+    
 // converting string into no.
 
 firstName = +"age"
