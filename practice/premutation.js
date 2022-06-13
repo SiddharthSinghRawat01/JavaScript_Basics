@@ -21,7 +21,7 @@ let findPermutation = (string)=>{
         for( let permutation of findPermutation(remainingChars)){
         
             permutationArray.push(char + permutation)
-            console.log(permutation+"   char    "+char)
+            console.log(permutation)
         }
 
     }
